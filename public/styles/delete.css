@@ -1,0 +1,52 @@
+/* Positioning the Delete Form */
+.delete-form {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dropdown Styling */
+  .delete-form select {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ff4d4d;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .delete-form select:hover {
+    border-color: #cc0000;
+  }
+  
+  /* Delete Button Styling */
+  .delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+  }
+  
+  .delete-btn:active {
+    background-color: #a30000;
+    transform: scale(0.95);
+  }
+  
